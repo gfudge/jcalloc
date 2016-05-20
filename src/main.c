@@ -17,8 +17,7 @@ int main() {
     while( i < 0x40 ) {
         printf("%02x", (unsigned)myarray[i++] );
     }
-
-    printf("Freeing...\n");
+    printf("\nFreeing...\n");
     jcfree( myarray );
 }
 
