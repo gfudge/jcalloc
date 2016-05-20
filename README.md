@@ -15,14 +15,11 @@ The `Makefile` will generate a simple `ELF` that will do an allocation and `prin
 
 The output will look like: 
 
-<pre><code>user@example:~/jcalloc$ ./example 
-
+<pre><code>
+user@example:~/jcalloc$ ./example 
 Allocing...
-
 Allocated, reading heap
-
 6a6f686e63656e6100646f6f7400646f6f7400646f6f7400646f6f7400646f6f7400646f6f7400646f6f7400646f6f7400646f6f7400646f6f7400646f6f7400
-
 Freeing...
 </code></pre>
 
